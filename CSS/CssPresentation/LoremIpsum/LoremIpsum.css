@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face
+{
+    font-family: edwardian;
+    src: url(font/edwardian.ttf);
+}
+
+body
+{
+    color: #0094ff;
+    font-family: Consolas, serif;
+}
+
+h1
+{
+    font-size: 1.5em;
+}
+
+h1:first-letter
+{
+    font-family: edwardian, serif;
+    font-size: 2em;
+}

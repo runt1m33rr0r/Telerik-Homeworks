@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humanity", "Humanity\Humanity.csproj", "{9C2569DE-EB27-4E11-ADD4-94467EFAEAE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoolPrinter", "BoolPrinter\BoolPrinter.csproj", "{5F78D87E-A44D-4F1C-A00A-3F06D362EA79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinesweeperGame", "MinesweeperGame\MinesweeperGame.csproj", "{15CBAFE4-5FDB-4F04-A025-7012EBFBEC14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C2569DE-EB27-4E11-ADD4-94467EFAEAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2569DE-EB27-4E11-ADD4-94467EFAEAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2569DE-EB27-4E11-ADD4-94467EFAEAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2569DE-EB27-4E11-ADD4-94467EFAEAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F78D87E-A44D-4F1C-A00A-3F06D362EA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F78D87E-A44D-4F1C-A00A-3F06D362EA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F78D87E-A44D-4F1C-A00A-3F06D362EA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F78D87E-A44D-4F1C-A00A-3F06D362EA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CBAFE4-5FDB-4F04-A025-7012EBFBEC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CBAFE4-5FDB-4F04-A025-7012EBFBEC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CBAFE4-5FDB-4F04-A025-7012EBFBEC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CBAFE4-5FDB-4F04-A025-7012EBFBEC14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

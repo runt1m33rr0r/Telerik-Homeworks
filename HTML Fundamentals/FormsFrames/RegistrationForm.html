@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        div
+        {
+            text-align: right;
+        }
+
+        table, td
+        {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<form method="post">
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <div>Last Name</div>
+            </td>
+            <td colspan="3">
+                <input type="text" required="required" title="Last Name" autofocus="autofocus" size="20" name="Last Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>First Name</div>
+            </td>
+            <td colspan="3">
+                <input type="text" required="required" title="First Name" size="20" name="First Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Address</div>
+            </td>
+            <td colspan="3">
+                <textarea title="Address" name="address"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>City</div>
+            </td>
+            <td>
+                <input type="text" required="required" title="City" size="10" name="city">
+            </td>
+            <td>
+                <div style="text-align: center"><label for="state">State</label></div>
+            </td>
+            <td>
+                <input type="text" required="required" id="state" size="3" name="state">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Zip/Postal Code</div>
+            </td>
+            <td colspan="3">
+                <input type="text" required="required" title="Country" size="5" name="postal code">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Phone (country code, <br> area code, number)</div>
+            </td>
+            <td colspan="3">
+                (+ <input type="text" required="required" title="countryCode" size="2" name="phone country code"> )
+                <input type="text" required="required" title="areaCode" size="2" name="area code"> -
+                <input type="text" required="required" title="number" size="5" name="number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>E-mail</div>
+            </td>
+            <td colspan="3">
+                <input type="text" required="required" title="mail" size="28" name="mail">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Birth date</div>
+            </td>
+            <td colspan="3">
+                <label for="Month">Month</label>
+                <input type="text" required="required" id="Month" size="1" name="month">
+
+                <label for="Day">Day</label>
+                <input type="text" required="required" id="Day" size="1" name="day">
+
+                <label for="year">Year (4 digit)</label>
+                <input type="text" required="required" id="year" size="1" name="year">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div><label for="gender">Gender</label></div>
+            </td>
+            <td colspan="3">
+                <select id="gender" name="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>Starting date</div>
+            </td>
+            <td colspan="3">
+                <label for="spring">Spring 2006</label>
+                <input type="radio" id="spring" name="date" checked="checked"/>
+
+                <label for="summer">Summer 2006</label>
+                <input type="radio" id="summer" name="date"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div><label for="questions">Comments/Questions</label></div>
+            </td>
+
+            <td colspan="3">
+                <textarea id="questions" name="questions" style="width: 200pt; height: 80pt"></textarea>
+            </td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+        <tr>
+            <td colspan="4" style="text-align: center">
+                <input type="submit">
+                <input type="reset" value="Clear This Form">
+            </td>
+        </tr>
+        </tfoot>
+    </table>
+</form>
+</body>
+</html>

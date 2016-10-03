@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #575757;
+    font-family: Arial, sans-serif;
+}
+
+td
+{
+    padding-bottom: 5pt;
+    padding-top: 5pt;
+}
+
+#tableHeading
+{
+    color: darkgray;
+    text-align: left;
+    font-size: 20pt;
+    font-weight: normal;
+}
+
+#circle
+{
+    color: #36c526;
+    font-size: 17pt;
+}
+
+#redText
+{
+    color: red;
+}
+
+#orangeText
+{
+    color: #df8e00;
+}
+
+#publicPost:before
+{
+    content: '\a';
+    white-space: pre;
+}
+
+.yellowText
+{
+    color: #dbd6a2;
+}
+
+.firstCol
+{
+    font-style: italic;
+    color: white;
+    vertical-align: top;
+    padding-right: 20pt;
+}
+
+.greyText
+{
+    color: darkgray;
+}

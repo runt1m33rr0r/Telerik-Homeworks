@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list
+{
+    width: 65px;
+}
+
+.listItem
+{
+    font-weight: bold;
+}
+
+.listItem:hover
+{
+    text-decoration: underline;
+}
+
+.sublistItem
+{
+    margin-left: 10px;
+    color: gray;
+    display: none;
+}
+
+.list:hover .sublistItem
+{
+    width: 100px;
+    display: block;
+}
